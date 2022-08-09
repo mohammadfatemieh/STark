@@ -34,17 +34,16 @@ FUNCTION_BLOCK TC081
     TON1 : TON;
     TON2 : TON;
   END_VAR
-
-  SR1((((20*IN1+6*IN2+IN3))=(100*2)) AND (IN1+IN2+IN3=100),IN4);
-  TON1(((((20*IN1+6*IN2+IN3))=(100*2)) AND (IN1+IN2+IN3=100)),2);
+  
+  SR1(((((20*IN1)+(6*IN2)+IN3))=(100*2)) AND (IN1+IN2+IN3=100),IN4);
+  TON1((((((20*IN1)+(6*IN2)+IN3))=(100*2)) AND (IN1+IN2+IN3=100)),2);
   TON2((IN1+IN2+IN3=42) AND SR1.Q,3);
   Ctr := TON2.ET;
   Err := TON1.Q;
   Wrn := SR1.Q;
 END_FUNCTION_BLOCK
 ````
-
-![graphviz (2)](https://user-images.githubusercontent.com/92115516/183744676-a45c6d72-bfdd-4afd-b05b-8e388e2f62d4.svg)
+![graphviz (10)](https://user-images.githubusercontent.com/92115516/183749805-0b0b9eb3-458f-46ad-b814-78a0b2d5ef91.svg)
 
 References
 ----------------
