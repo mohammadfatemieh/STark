@@ -44,6 +44,8 @@ FUNCTION_BLOCK TC081
 END_FUNCTION_BLOCK
 ````
 
+![graphviz (2)](https://user-images.githubusercontent.com/92115516/183744676-a45c6d72-bfdd-4afd-b05b-8e388e2f62d4.svg)
+
 References
 ----------------
 [1] Ken Lauer, “Beckhoff TwinCAT IEC 61131-3 Lark-based Structured Text Tools”, v0.5.0, https://github.com/klauer/blark
