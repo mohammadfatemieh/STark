@@ -43,7 +43,7 @@ FUNCTION_BLOCK TC081
   Wrn := SR1.Q;
 END_FUNCTION_BLOCK
 ````
-![diagram-20220810](https://user-images.githubusercontent.com/92115516/183843727-027604d9-24c2-483a-9a78-2f4827f862ec.svg)
+![diagram-20220810](https://user-images.githubusercontent.com/92115516/183860895-1cf7326d-a9d8-4053-93c3-005c17cd6f84.svg)
 
 References
 ----------------
